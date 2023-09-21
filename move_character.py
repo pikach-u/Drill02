@@ -20,7 +20,7 @@ def run_circle():
         render_frame(x,y)
 
 def run_rectangle():
-    for x in range(50,750+1,10): #for문 활용
+    for x in range(50,750+1,10):
         render_frame(x,90)
     
     for y in range(90,510+1,10):
@@ -36,6 +36,6 @@ def run_rectangle():
 while True:
     run_circle()
     run_rectangle()
-    break
+    #break
 
 close_canvas()
